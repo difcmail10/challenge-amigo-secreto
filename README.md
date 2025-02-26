@@ -1,4 +1,4 @@
-<h1 align="center"> Su título aquí </h1>
+<h1 align="center"> Challenge amigo secreto </h1>
 
 Proyecto que genera de manera aleatoria el nombre de amigo secreto de un conjunto de nombres registrado
 
