@@ -24,8 +24,24 @@ function esAmigoValido(amigo) {
     if (amigo.trim() == '') {
         alert('Por favor, inserte un nombre.')
         valido = false;
+    }else{
+        let nombre = amigo.toLowerCase();
+        if(validarSiExisteAmigo(amigo)){
+            alert('El nombre ingresado ya existe.')
+            valido = false;
+        }
     }
     return valido;
+}
+
+function validarSiExisteAmigo(amigo){
+    let existe = false;
+    for(let i = 0; i< amigos.length; i++){
+        if(amigo == amigos[i]){
+            existe = true;
+        }
+    }
+    return existe;
 }
 
 

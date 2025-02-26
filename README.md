@@ -6,6 +6,15 @@ Proyecto que genera de manera aleatoria el nombre de amigo secreto de un conjunt
 
 Para ejecutar el sistema debe descrgar el proyecto y abrir la página index.html en el navegador de su preferencia.
 
+La funcionalidad del proyecto se encuentra en el archivo app.js donde se crearon 4 funciones
+
+<li>
+    <ol>agregarAmigo</ol>
+    <ol>validarAmigo</ol>
+    <ol>agregarAmigo</ol>
+    <ol>agregarLista</ol>
+</li>
+
 
 
 
